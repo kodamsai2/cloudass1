@@ -1,0 +1,8 @@
+runtime: python3
+
+threadsafe: false
+api_version: 1
+
+handlers:
+- url: /.*
+  script: my1.py
